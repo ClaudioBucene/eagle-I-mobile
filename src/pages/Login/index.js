@@ -1,11 +1,12 @@
+import { useNavigation } from '@react-navigation/native';
 import * as React from 'react';
 import { View} from 'react-native';
 import { TextInput, Button } from 'react-native-paper';
+
 import styles from './styles';
 
-
-
-export default function App() {
+export default function Login() {
+  const navigation = useNavigation();
 
   return (
       <View style={styles.container}>
@@ -19,7 +20,8 @@ export default function App() {
       </View>
       
       <View style={styles.loginBtn}>
-        <Button icon="login" mode="contained" onPress={() => null}> Entrar </Button>
+        <Button icon="login" mode="contained" onPress={() => 
+        navigation.navigate('Menu')}> Entrar </Button>
       </View>
     </View>
   );
