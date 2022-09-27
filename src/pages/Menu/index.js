@@ -1,15 +1,12 @@
 import * as React from 'react';
-import { View} from 'react-native';
-import { Text } from 'react-native-paper';
+import { NavigationContainer } from '@react-navigation/native';
 
-import styles from './styles';
+import MyTabs from './MyTabs';
 
-export default function Menu() {
-
+export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Here comes the menu</Text>
-    </View>
+    <NavigationContainer independent='true'>
+      <MyTabs />
+    </NavigationContainer>
   );
-
 }

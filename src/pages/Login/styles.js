@@ -4,7 +4,8 @@ export default StyleSheet.create({
 
       container: { flex: 1, 
          justifyContent: 'center',
-         alignItems:'center'
+         alignItems:'center',
+         backgroundColor: '#9db50d'
     }, 
 
     inputView:{
@@ -14,7 +15,8 @@ export default StyleSheet.create({
     },
 
     loginBtn:{
-    width: "40%"
+    width: "40%",
+    
     }
 
 })

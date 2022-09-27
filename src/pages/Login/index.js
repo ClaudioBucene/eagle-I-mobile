@@ -20,7 +20,7 @@ export default function Login() {
       </View>
       
       <View style={styles.loginBtn}>
-        <Button icon="login" mode="contained" onPress={() => 
+        <Button buttonColor='#12375C' icon="login" mode="contained" onPress={() => 
         navigation.navigate('Menu')}> Entrar </Button>
       </View>
     </View>
