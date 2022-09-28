@@ -1,5 +1,5 @@
 import {StyleSheet} from  'react-native';
-
+import fonts from '../styles/fonts';
 export default StyleSheet.create({ 
 
     container: { 
@@ -9,19 +9,46 @@ export default StyleSheet.create({
          backgroundColor: 'white'
     }, 
 
-    inputView:{
+    firstTxt: {
+        color: '#12375C',
+        marginTop: "12%",
+        fontFamily: fonts.heading,
+        fontSize: 18
+    },
+
+    uinputView:{
+        marginTop: "5%",
+        height:56,
         width: "80%",
-        marginBottom: 20,
         justifyContent: 'center',
+        borderRadius: 6
+    },
+
+    pinputView:{
+        marginVertical: "8%",
+        width: "80%",
+        height:56,
+        justifyContent: 'center',
+        borderRadius: 6
     },
 
     txtInput:{
-        selectionColor:'#12375C',
-        outlineColor:'#12375C',
-        activeOutlineColor:'#12375C'
-    },
+        backgroundColor: '#F5F5F5',
+        textColor: '#12375C'
+    }, 
         
-    loginBtn:{
-    width: "40%"
+    BtnView:{
+        width:'80%',
+        height:56,
+        backgroundColor: '#12375C',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 6
     },
+
+    BtnText: {
+        color: '#A1C861',
+        fontFamily: fonts.heading,
+        fontSize: 15
+    }
 })
