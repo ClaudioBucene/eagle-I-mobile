@@ -38,6 +38,7 @@ export default StyleSheet.create({
     }, 
         
     BtnView:{
+        flexDirection:'row',
         width:'80%',
         height:56,
         backgroundColor: '#12375C',
@@ -47,6 +48,7 @@ export default StyleSheet.create({
     },
 
     BtnText: {
+        marginLeft:12,
         color: '#A1C861',
         fontFamily: fonts.heading,
         fontSize: 15

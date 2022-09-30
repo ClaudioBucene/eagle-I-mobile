@@ -1,3 +1,4 @@
+import { red } from '@mui/material/colors';
 import {StyleSheet} from  'react-native';
 
 export default StyleSheet.create({ 
@@ -5,8 +6,6 @@ export default StyleSheet.create({
         flex: 1, 
         justifyContent: 'center', 
         alignItems: 'center',
-        backgroundColor: '#F5F5F5;' 
+        backgroundColor: 'whitesmoke',
     } 
-    
-    
-    })
+})

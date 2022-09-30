@@ -1,10 +1,12 @@
 import { useNavigation } from '@react-navigation/native';
-import * as Svg from 'react-native-svg';
 import * as React from 'react';
 import { Text, View, Image, TouchableOpacity} from 'react-native';
 import { TextInput} from 'react-native-paper';
 import colors from '../styles/colors';
 import styles from './styles';
+
+import Logo from '../../../assets/logo.svg'
+import { MaterialCommunityIcons } from '@expo/vector-icons'; 
 
 export default function Login() {
   const navigation = useNavigation();
@@ -12,15 +14,17 @@ export default function Login() {
   return (
       <View style={styles.container}>
 
-        <Image source={require('../../../assets/eagleLogo.png')} />
+       <Logo />
        
         <Text style={styles.firstTxt}>Acesse a sua conta</Text>
         
       <View style={styles.uinputView}>
       <TextInput style={styles.txtInput} selectionColor='#12375C' outlineColor='#12375C'
         activeOutlineColor='#12375C' underlineColor='#12375C' 
-      left={<TextInput.Icon icon="account-outline" theme={{colors: {text: colors.blue}}}/>} 
-       mode="outlined" label="Username" theme={{ colors: {text: '#12375C !important'}}}/>
+
+      left={<TextInput.Icon icon="account-outline"/>} 
+      
+       mode="outlined" label="Username" />
       </View>
       
       <View style={styles.pinputView}>
@@ -31,8 +35,9 @@ export default function Login() {
       
     
       <TouchableOpacity style={styles.BtnView} onPress={() => navigation.navigate('Menu')}>
-              <Text style={styles.BtnText}>Entrar</Text>
-      </TouchableOpacity>
+      <MaterialCommunityIcons name="login" size={15} color="#A1C861"/>
+       <Text style={styles.BtnText}>Entrar</Text>
+      </TouchableOpacity> 
      
 
     </View>
