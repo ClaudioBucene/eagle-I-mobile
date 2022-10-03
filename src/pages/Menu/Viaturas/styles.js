@@ -16,7 +16,7 @@ export default StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        paddingHorizontal: '5%'
+        paddingHorizontal: '6%'
        },
 
     view3:{

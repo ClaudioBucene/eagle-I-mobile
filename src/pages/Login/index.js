@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native';
 import * as React from 'react';
-import { Text, View, Image, TouchableOpacity} from 'react-native';
+import { Text, View, TouchableOpacity} from 'react-native';
 import { TextInput} from 'react-native-paper';
 import styles from './styles';
 
