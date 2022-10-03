@@ -15,7 +15,8 @@ export default StyleSheet.create({
         backgroundColor: "#F5F5F5" ,
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
+        paddingHorizontal: '5%'
        },
 
     view3:{
@@ -48,6 +49,7 @@ export default StyleSheet.create({
         justifyContent: 'center',
         alignSelf: 'flex-end',
         marginBottom: '5%',
+        borderRadius: 20
     },
 
     menuButtonsDown:{
@@ -57,7 +59,7 @@ export default StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         alignSelf: 'flex-start',
-        borderRadius: '20px'
+        borderRadius: 20
     },
 
    })

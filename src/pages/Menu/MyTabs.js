@@ -8,14 +8,16 @@ const Tab = createBottomTabNavigator ();
     import Tarefas from './Tarefas';
     import Users from './Users';
     import Viaturas from './Viaturas';
-    import colors from '../styles/colors';
    
 
 export default function MyTabs() {
   return (
     <Tab.Navigator
       screenOptions={{
-      //  tabBarStyle: { paddingBottom:1},
+        tabBarStyle: { 
+          //position: 'absolute',
+          overflow:'hidden',
+        },
         headerShown: false,
         tabBarActiveTintColor: '#a1c861',
         tabBarActiveBackgroundColor: '#12375C',

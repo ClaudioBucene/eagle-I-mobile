@@ -2,7 +2,6 @@ import { useNavigation } from '@react-navigation/native';
 import * as React from 'react';
 import { Text, View, Image, TouchableOpacity} from 'react-native';
 import { TextInput} from 'react-native-paper';
-import colors from '../styles/colors';
 import styles from './styles';
 
 import Logo from '../../../assets/logo.svg'

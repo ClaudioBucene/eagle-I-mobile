@@ -1,10 +1,12 @@
 import { useNavigation } from '@react-navigation/native';
 import * as React from 'react';
-import { Image, Text, View, TouchableOpacity } from 'react-native';
+import { Text, View, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { FontAwesome5 } from '@expo/vector-icons';
-import { MaterialIcons } from '@expo/vector-icons';
+import { FontAwesome } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+
+import Logo from '../../../../assets/logo.svg'
 
 import styles from './styles'
 
@@ -18,7 +20,7 @@ export default function Viaturas() {
         </View>
 
         <View style={styles.view2}>
-          <Image  source={require('../../../../assets/eagleLogo.png')} />
+          <Logo />
           <FontAwesome5  name="user" size={30} color="#12375C" />
         </View>
 
@@ -26,8 +28,10 @@ export default function Viaturas() {
         </View>
 
         <View style={styles.view4}>
-          <TouchableOpacity  borderRadius="20%" style={styles.menuButtonsUp} onPress={() => navigation.navigate('Menu')}>
-          <MaterialIcons name="transfer-within-a-station" size={40} color="#12375C" />
+          <TouchableOpacity style={styles.menuButtonsUp} onPress={() => navigation.navigate('Menu')}>
+          <Ionicons name="arrow-back-outline" size={24} color="#12375C" />
+          <Ionicons name="car-outline" size={40} color="#12375C" />
+          <Ionicons name="arrow-forward" size={24} color="#12375C" />
             <Text >Transferências</Text>
           </TouchableOpacity>
 

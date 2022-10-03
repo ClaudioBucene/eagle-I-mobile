@@ -4,6 +4,7 @@ import React from 'react';
 
 import Routes from './src/routes';
 import AppLoading from "expo-app-loading";
+
 export default function App() {
 
   const [ fontsLoaded ] = useFonts({
@@ -18,4 +19,3 @@ export default function App() {
     <Routes />
   );
 }
-
