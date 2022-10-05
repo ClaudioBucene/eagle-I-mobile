@@ -4,12 +4,12 @@ import { Text, View, TouchableOpacity } from 'react-native';
 
 import styles from './styles'
 
-export default function Viaturas() {
+export default function Transfers() {
     const navigation = useNavigation();
 
     return (
     <View style={styles.container}>
-        <Text>Vehicles</Text>
+        <Text>Transfers</Text>
     </View>
     )
 }

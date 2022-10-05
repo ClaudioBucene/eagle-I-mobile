@@ -4,12 +4,12 @@ import { Text, View, TouchableOpacity } from 'react-native';
 
 import styles from './styles'
 
-export default function Viaturas() {
+export default function Atrelado() {
     const navigation = useNavigation();
 
     return (
     <View style={styles.container}>
-        <Text>Vehicles</Text>
+        <Text>Atrelado</Text>
     </View>
     )
 }
