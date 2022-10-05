@@ -9,7 +9,7 @@ export default function Viaturas() {
 
     return (
     <View style={styles.container}>
-        <Text>Vehicles</Text>
+        <Text>Inspeccao diaria</Text>
     </View>
     )
 }
