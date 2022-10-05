@@ -41,14 +41,6 @@ export default function MyStack() {
   return (
       <View style={styles.container}>
 
-        <View style={styles.view1}>
-        </View>
-
-        <View style={styles.view2}>
-          <Logo />
-          <ProfilePic />
-        </View>
-
         <View style={styles.view3}>
         </View>
 

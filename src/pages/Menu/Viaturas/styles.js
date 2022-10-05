@@ -5,20 +5,6 @@ export default StyleSheet.create({
          flex: 1, 
     }, 
 
-    view1:{
-        flex: 1, 
-        backgroundColor: "#F5F5F5" 
-    },
-
-    view2:{
-        flex: 2, 
-        backgroundColor: "#F5F5F5" ,
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        paddingHorizontal: '6%'
-       },
-
     view3:{
         flex: 3, 
         backgroundColor: "#F5F5F5" 
