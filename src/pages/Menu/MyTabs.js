@@ -6,7 +6,7 @@ const Tab = createBottomTabNavigator ();
     import Home from './Home';
     import Inventario from './Inventario';
     import Tarefas from './Tarefas';
-    import Users from './Users';
+    import Users from './Users/Index';
     import Viaturas from './Viaturas';
    
 

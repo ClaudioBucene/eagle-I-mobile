@@ -8,7 +8,7 @@ import styles from './styles';
 import Logo from '../../../assets/logo.svg';
 import ProfilePic from '../../../assets/foto.svg';
 
-export default function Menu() {
+export default function Viaturas() {
     return (
         <View style={styles.container}>
 
