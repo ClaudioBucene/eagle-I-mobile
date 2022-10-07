@@ -15,8 +15,8 @@ export default function Viaturas() {
             <View style={styles.view1}></View>
 
             <View style={styles.view2}>
-                <Logo/>
-                <ProfilePic/>
+                <Logo width='25%'/>
+                <ProfilePic width='10%'/>
             </View>
 
             <View style={styles.view3}>

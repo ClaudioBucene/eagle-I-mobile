@@ -11,7 +11,7 @@ export default StyleSheet.create({
     },
 
     view4:{
-        flex: 4, 
+        flex: 3, 
         backgroundColor: "#F5F5F5" ,
         flexDirection: 'row',
         justifyContent: 'space-evenly',
@@ -19,11 +19,12 @@ export default StyleSheet.create({
     },
 
     view5:{
-        flex: 4, 
+        flex: 3, 
         backgroundColor: "#F5F5F5" ,
         flexDirection: 'row',
         justifyContent: 'space-evenly',
-        alignItems: 'center'
+        alignItems: 'center',
+        paddingBottom: '15%'
     },
 
 

@@ -15,7 +15,12 @@ export default function MyTabs() {
     <Tab.Navigator
       screenOptions={{
         tabBarStyle: { 
-          //position: 'absolute',
+          height:60,
+          position:'absolute',
+          bottom: 16,
+          right:16,
+          left:16,
+          borderRadius: 16,
           overflow:'hidden',
         },
         headerShown: false,
@@ -23,6 +28,8 @@ export default function MyTabs() {
         tabBarActiveBackgroundColor: '#12375C',
         tabBarItemStyle:{
           borderRadius:500,
+          alignItems:'center',
+          padding: 6,
         }
       }}>
 

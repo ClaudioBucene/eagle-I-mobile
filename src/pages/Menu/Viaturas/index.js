@@ -15,9 +15,6 @@ import Transfers from './Transfers';
 
 const Stack = createStackNavigator();
 
-import Logo from '../../../../assets/logo.svg'
-import ProfilePic from '../../../../assets/foto.svg'
-
 import styles from './styles'
 
 export default function MyStack() {
@@ -42,6 +39,7 @@ export default function MyStack() {
       <View style={styles.container}>
 
         <View style={styles.view3}>
+
         </View>
 
         <View style={styles.view4}>
