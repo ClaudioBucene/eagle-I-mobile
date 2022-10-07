@@ -36,6 +36,7 @@ export default styles = StyleSheet.create({
 
   txtstyle: {
     paddingLeft:'5%',
+    color: '#12375C'
   }
 
  });
